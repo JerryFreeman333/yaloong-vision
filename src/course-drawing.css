@@ -1,0 +1,4 @@
+.wc-page-tools{flex-wrap:wrap}
+.wc-page-tools .wc-drawing-switch{margin-left:auto}
+.wc-paper .wc-figure-crop{position:relative;overflow:hidden;margin:0 auto;background:white;width:min(100%,calc(64svh * var(--figure-ratio)));aspect-ratio:var(--figure-ratio)}
+.wc-paper .wc-figure-crop img{position:absolute;max-width:none;height:auto;margin:0}

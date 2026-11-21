@@ -1,0 +1,33 @@
+.whole-course-embedded .app-header,
+.whole-course-embedded .mode-nav,
+.whole-course-embedded .training-launch,
+.whole-course-embedded .guide-original-title,
+.whole-course-embedded .chapter-select,
+.whole-course-embedded .scene-heading,
+.whole-course-embedded .fullscreen-gallery-back,
+.whole-course-embedded [data-page="guide"] > .panel-title,
+.whole-course-embedded [data-step="restart"] {display:none}
+.whole-course-embedded .app-shell {height:100dvh;min-height:0}
+.whole-course-embedded .configuration {padding:16px;overflow:auto}
+.whole-course-embedded .step-card {border:0;padding:0;background:transparent}
+.whole-course-embedded .guide-targets {max-height:10.5em}
+.whole-course-embedded .guide-targets button {min-height:32px}
+.whole-course-embedded .guide-targets button[aria-pressed="true"] {background:#fff0e5;border-color:#ad552d;color:#7b3716}
+.whole-course-embedded .scene:fullscreen .fullscreen-gallery-back {display:none}
+@media (min-width:600px) {
+  .whole-course-embedded .workspace {display:grid;grid-template-columns:minmax(0,1fr) clamp(240px,27%,340px)}
+  .whole-course-embedded .scene {height:100%;min-height:0}
+  .whole-course-embedded .work-panel {height:100%;min-height:0}
+}
+@media (max-width:599px) {
+  .whole-course-embedded .workspace {display:grid;grid-template-rows:minmax(170px,44%) minmax(0,1fr);grid-template-columns:1fr}
+  .whole-course-embedded .scene,.whole-course-embedded .work-panel {height:100%;min-height:0}
+}
+.process-station-embedded .work-panel,.process-station-embedded .scene-controls {display:none}
+.process-station-embedded .workspace{display:block}
+.process-station-embedded .scene{height:100%;width:100%}
+.bench-pin {position:absolute;z-index:3;transform:translate(-50%,calc(-100% - 12px));padding:6px 11px;border:1px solid #ffc6a5;border-radius:5px;background:#69351ded;color:#fff;font:600 12px/1.35 system-ui,sans-serif;white-space:nowrap;cursor:pointer;box-shadow:0 2px 8px #0006}
+.bench-pin::after {content:'';position:absolute;left:50%;top:100%;height:12px;width:2px;background:#ffc6a5}
+.bench-pin::before {content:'';position:absolute;left:calc(50% - 3px);top:calc(100% + 9px);width:8px;height:8px;border:1px solid #172820;border-radius:50%;background:#ffc6a5}
+.bench-place {background:#214d3feb;border-color:#91edbb}
+.bench-place::before,.bench-place::after {background:#91edbb}

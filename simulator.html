@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="icon" href="data:,">
+    <meta name="theme-color" content="#202425">
+    <title>BPX Studio · 四足机器人虚拟仿真</title>
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="brand" aria-label="BPX Studio">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="brand-name">BPX<span>STUDIO</span></span>
+        </div>
+        <span class="header-divider" aria-hidden="true"></span>
+        <h1>四足机器人虚拟仿真</h1>
+        <div class="header-actions">
+          <a class="gallery-back" href="./?return=gallery"><span aria-hidden="true">←</span>返回图库</a>
+          <span id="system-state" class="system-state" role="status"><i></i><span>正在加载</span></span>
+          <button type="button" class="icon-button" id="help" aria-label="操作帮助" title="操作帮助" aria-expanded="false" aria-controls="help-popover" data-icon="help"></button>
+        </div>
+        <div id="help-popover" class="help-popover" hidden>
+          <div class="subhead">视口操作</div>
+          <dl><div><dt>旋转模型</dt><dd>拖动 / 单指滑动</dd></div><div><dt>缩放模型</dt><dd>滚轮 / 双指缩放</dd></div><div><dt>平移视图</dt><dd>右键拖动 / 双指滑动</dd></div><div><dt>选择零件</dt><dd>点击模型或部件列表</dd></div></dl>
+        </div>
+      </header>
+      <main class="workspace">
+        <section class="scene" aria-label="三维仿真视口" id="scene">
+          <canvas id="viewport" tabindex="0" aria-label="可旋转、缩放和点选零件的三维模型"></canvas>
+          <a class="gallery-back fullscreen-gallery-back" href="./?return=gallery"><span aria-hidden="true">←</span>返回图库</a>
+          <div class="scene-gradient"></div>
+          <div class="scene-heading">
+            <div class="scene-subtitle"><i></i>四足机器人</div>
+            <h2>BLACK PANTHER <em>X</em></h2>
+          </div>
+          <div id="scene-message" role="status" class="scene-message" hidden></div>
+          <div class="scene-controls">
+            <div class="view-controls" aria-label="相机视角">
+              <span class="control-icon" data-icon="camera" aria-hidden="true"></span>
+              <button type="button" data-view="iso" aria-pressed="true">等轴</button>
+              <button type="button" data-view="front" aria-pressed="false">前视</button>
+              <button type="button" data-view="side" aria-pressed="false">侧视</button>
+              <button type="button" data-view="top" aria-pressed="false">顶视</button>
+            </div>
+            <div class="scene-tools">
+              <button type="button" class="scene-tool" id="reset-view" aria-label="复位视角" title="复位视角" data-icon="frame"></button>
+              <button type="button" class="scene-tool" id="full-screen" aria-label="全屏显示视口" title="全屏显示视口" data-icon="expand"></button>
+            </div>
+          </div>
+          <div class="loading-panel" id="loading-panel" role="status"><span class="loader"></span><strong id="loading-text">正在读取装配模型</strong></div>
+        </section>
+        <aside class="work-panel" aria-label="仿真控制台">
+          <nav class="mode-nav" aria-label="仿真工具">
+            <button type="button" data-mode="inspect" aria-pressed="true"><span data-icon="box"></span>部件</button>
+            <button type="button" data-mode="motion" aria-pressed="false"><span data-icon="motion"></span>运动</button>
+            <button type="button" data-mode="explode" aria-pressed="false"><span data-icon="explode"></span>爆炸</button>
+            <button type="button" data-mode="guide" aria-pressed="false"><span data-icon="book"></span>装配</button>
+          </nav>
+          <section class="panel-page" data-page="inspect" aria-label="部件浏览">
+            <div class="panel-title"><span class="panel-kicker">BPX.step</span><h2>部件浏览</h2></div>
+            <div class="model-stats"><div><span>部件实例</span><strong id="part-count">—</strong></div><div><span>主动关节</span><strong id="joint-count">—</strong></div></div>
+            <div class="catalog">
+              <label class="search-field"><span data-icon="search"></span><input id="part-search" type="search" placeholder="搜索零件名称或编号" aria-label="搜索零件名称或编号"></label>
+              <div id="part-tree" class="part-tree" aria-label="零件列表"></div>
+            </div>
+            <div class="selection" id="selection"></div>
+          </section>
+          <section class="panel-page configuration" data-page="motion" aria-label="关节运动" hidden>
+            <div class="panel-title"><span class="panel-kicker">HIPX · HIPY · KNEE</span><h2>关节运动</h2></div>
+            <p class="panel-description">选择一条腿，调节它的三个主动关节。</p>
+            <fieldset class="field-block"><legend>腿部位置</legend><div class="segmented leg-select">
+              <button type="button" data-leg="LF" aria-pressed="true"><b>LF</b>左前</button><button type="button" data-leg="RF" aria-pressed="false"><b>RF</b>右前</button><button type="button" data-leg="LR" aria-pressed="false"><b>LR</b>左后</button><button type="button" data-leg="RR" aria-pressed="false"><b>RR</b>右后</button>
+            </div></fieldset>
+            <div class="field-block" id="joint-sliders"></div>
+            <fieldset class="field-block"><legend>整机姿态</legend><div class="pose-buttons">
+              <button type="button" data-pose="stand">站立</button><button type="button" data-pose="crouch">趴下</button><button type="button" data-pose="lift">支架辅助抬右前腿</button>
+            </div></fieldset>
+            <fieldset class="field-block walk-control"><legend>整机运动</legend>
+              <div class="walk-speed-control">
+                <div class="range-title"><label for="walk-speed">前进速度</label><output id="walk-speed-value" for="walk-speed"></output></div>
+                <input id="walk-speed" type="range" step="0.1">
+                <div class="range-limits" aria-hidden="true"><span id="walk-speed-min"></span><span id="walk-speed-max"></span></div>
+              </div>
+              <div class="pose-buttons walk-buttons">
+                <button type="button" id="walk-toggle" aria-pressed="false">向前行走</button><button type="button" id="walk-reset" disabled>倒退回原点</button>
+                <button type="button" data-turn="left">左转</button><button type="button" data-turn="right">右转</button>
+              </div>
+              <div class="motion-readouts"><span id="heading">朝向 0°</span><span id="walk-distance" hidden></span><span id="turn-phase" role="status" hidden></span></div>
+              <div class="motion-readouts walk-balance" id="walk-balance" hidden>
+                <span>支撑足 <b data-support-count></b></span>
+                <span title="计算得到的足底压力中心距支撑区域最近边界的水平距离">平衡余量 <b data-stability-margin></b></span>
+              </div>
+            </fieldset>
+            <fieldset class="field-block"><legend>跳跃</legend>
+              <div class="pose-buttons"><button type="button" id="jump">原地跳跃</button><button type="button" data-jump-turn="left">高跳左转</button><button type="button" data-jump-turn="right">高跳右转</button></div>
+              <div class="motion-readouts"><span id="jump-phase" role="status" hidden></span></div>
+            </fieldset>
+            <div class="technical-note"><span data-icon="info"></span><p>角度为机构演示范围。</p></div>
+          </section>
+          <section class="panel-page configuration" data-page="explode" aria-label="爆炸视图" hidden>
+            <div class="panel-title"><h2>爆炸视图</h2></div>
+            <p class="panel-description">拖动滑杆，查看零件之间的装配关系。</p>
+            <div class="field-block explosion-card">
+              <div class="range-title"><label for="explode-range">展开程度</label><output id="explode-value" for="explode-range">0%</output></div>
+              <input id="explode-range" type="range" min="0" max="100" value="0" step="1">
+              <div class="range-limits"><span>装配位置</span><span>完全展开</span></div>
+            </div>
+            <div class="pose-buttons"><button type="button" data-explosion="0">收拢</button><button type="button" data-explosion="1">全部展开</button></div>
+          </section>
+          <section class="panel-page configuration" data-page="guide" aria-label="装配教学" hidden>
+            <div class="panel-title"><h2>装配教学</h2></div>
+            <a class="training-launch" href="./assembly.html"><strong>从零组装机器狗 <span aria-hidden="true">↗</span></strong><small>进入整机装配台，从底框开始逐件搭建；已开工可继续。</small></a>
+            <h3 class="guide-original-title">分章装配</h3>
+            <div class="step-card">
+              <div class="step-meta"><span>当前步骤</span><strong id="guide-index">—</strong></div>
+              <progress id="guide-progress" value="0" max="1" aria-label="教学进度"></progress>
+              <h3 id="guide-title">正在读取步骤</h3><p id="guide-text"></p><small id="guide-source"></small>
+            </div>
+            <div class="guide-actions"><button type="button" class="secondary" data-step="prev">上一步</button><button type="button" class="primary" data-step="next" id="next-step">下一步</button></div>
+            <button type="button" class="text-button" data-step="restart"><span data-icon="restart"></span>重新开始</button>
+          </section>
+        </aside>
+      </main>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

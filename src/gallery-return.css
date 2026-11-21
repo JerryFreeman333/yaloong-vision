@@ -1,0 +1,33 @@
+.wc-header .gallery-return,
+.masthead .gallery-return {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex: none;
+  color: #fff;
+  text-decoration: none;
+}
+.gallery-return-brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  white-space: nowrap;
+}
+.gallery-return-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 9px;
+  border: 1px solid #7d918b;
+  border-radius: 5px;
+  font: 550 13px/1.2 "PingFang SC", "Microsoft YaHei", sans-serif;
+  white-space: nowrap;
+}
+.gallery-return:hover .gallery-return-label,
+.gallery-return:focus-visible .gallery-return-label {
+  background: #3d554e;
+  border-color: #d2ded8;
+}
+@media (max-width: 680px) {
+  .gallery-return-brand { display: none; }
+}

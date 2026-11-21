@@ -1,0 +1,993 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "manual": "260715拼装说明书_C2P20724改1.pdf",
+    "edition": "C2P20724 改1",
+    "cad": "BPX.step",
+    "pageIndex": "PDF 页码，自封面起计"
+  },
+  "legs": [
+    {
+      "id": "LF",
+      "label": "左前",
+      "side": "L",
+      "hip": "HIPYLFXX",
+      "roll": "HIPXLFRR",
+      "direction": "前",
+      "legPages": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "LR",
+      "label": "左后",
+      "side": "L",
+      "hip": "HIPYLRXX",
+      "roll": "HIPXLRRF",
+      "direction": "后",
+      "legPages": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "RF",
+      "label": "右前",
+      "side": "R",
+      "hip": "HIPYRFXX",
+      "roll": "HIPXLRRF",
+      "direction": "前",
+      "legPages": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "RR",
+      "label": "右后",
+      "side": "R",
+      "hip": "HIPYRRXX",
+      "roll": "HIPXLFRR",
+      "direction": "后",
+      "legPages": [
+        19,
+        20,
+        21
+      ]
+    }
+  ],
+  "selectors": {
+    "longBeam": "C2-3-0-018 ",
+    "shortBeam": "C2-3-0-009 ",
+    "controlBody": "C2-2-0-078 ",
+    "controlLid": "C2-2-0-089 ",
+    "frameSupport": "C2-3-0-003 ",
+    "cushion": "C2-2-0-026 ",
+    "bodyClamp": "C2-3-0-005 ",
+    "handle": "C2-3-0-010 ",
+    "sleeve": "石墨铜套",
+    "kneeMotor": "膝关节电机组件",
+    "hipMotor": "髋关节电机组件",
+    "rollMotor": "侧摆电机组件",
+    "thighClamp": "侧面上盖",
+    "motorClamp": "髋膝关节抱箍盖",
+    "hipCable": "C2-髋膝连接线",
+    "rollCable": "侧摆到髋连接线",
+    "foot": "C2-2-2-077 ",
+    "battery": "C2-8-0-024 ",
+    "batteryHandle": "C2-2-0-086 "
+  },
+  "batteryMotion": {
+    "origin": [
+      -136.0091,
+      154.8076,
+      983.5044
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "openDegrees": -87,
+    "pull": [
+      -220,
+      0,
+      0
+    ],
+    "calibration": "转轴取自 C2-2-0-084 与 C2-2-0-087 的同轴圆柱面。翻转角和取出距离为演示值。"
+  },
+  "chapters": [
+    {
+      "id": "frame",
+      "title": "躯干与电控盒",
+      "subtitle": "框架、长短梁和缓冲垫",
+      "pages": "6–8",
+      "steps": [
+        {
+          "title": "拼合底部长梁",
+          "detail": "选取底部两根 320 mm 长梁。",
+          "kind": "part",
+          "page": 6,
+          "role": "bottomRail",
+          "stage": true,
+          "id": "frame-01"
+        },
+        {
+          "title": "接入两根短梁",
+          "detail": "将两根横向短梁与底部长梁的端部对齐。",
+          "kind": "part",
+          "page": 6,
+          "role": "shortBeam",
+          "stage": true,
+          "id": "frame-02"
+        },
+        {
+          "title": "预装底框螺丝",
+          "detail": "预装 4 颗 M6×22 螺丝，检查两根长梁和两根短梁的孔位。确认本项紧固操作。",
+          "kind": "confirm",
+          "page": 6,
+          "uiLabel": "确认已完成",
+          "id": "frame-03",
+          "fastening": {
+            "roles": [
+              "frameBase"
+            ],
+            "count": 4
+          }
+        },
+        {
+          "title": "电控盒入槽",
+          "detail": "找到电控盒壳体，沿底部卡槽装入框架。",
+          "kind": "part",
+          "page": 6,
+          "role": "controlBody",
+          "stage": true,
+          "id": "frame-04"
+        },
+        {
+          "title": "装上两根上梁",
+          "detail": "按第 7 页图 ③，将两根上方长梁对齐电控盒侧面的孔位。",
+          "kind": "part",
+          "page": 7,
+          "role": "topRail",
+          "stage": true,
+          "id": "frame-05"
+        },
+        {
+          "title": "固定电控盒",
+          "detail": "确认 8 颗 M6×22 螺丝均已预装、对齐并依对角顺序拧紧。",
+          "kind": "confirm",
+          "page": 7,
+          "uiLabel": "确认已完成",
+          "id": "frame-06",
+          "fastening": {
+            "roles": [
+              "controlBox"
+            ],
+            "count": 8
+          }
+        },
+        {
+          "title": "安装躯干固定件",
+          "detail": "依次选取前后两端的框架支撑件。",
+          "kind": "part",
+          "page": 7,
+          "role": "frameSupport",
+          "stage": true,
+          "id": "frame-07"
+        },
+        {
+          "title": "紧固躯干固定件",
+          "detail": "用 8 颗 M6×16 螺丝固定两个支撑件。",
+          "kind": "confirm",
+          "page": 7,
+          "uiLabel": "确认已完成",
+          "id": "frame-08",
+          "fastening": {
+            "roles": [
+              "frameBracket"
+            ],
+            "count": 8
+          }
+        },
+        {
+          "title": "装入底部缓冲垫",
+          "detail": "分别选取躯干底部四个缓冲垫。",
+          "kind": "part",
+          "page": 7,
+          "role": "cushion",
+          "stage": true,
+          "id": "frame-09"
+        },
+        {
+          "title": "固定缓冲垫",
+          "detail": "四个缓冲垫共使用 8 颗 M6×16 螺丝。确认对齐并紧固。",
+          "kind": "confirm",
+          "page": 7,
+          "uiLabel": "确认已完成",
+          "id": "frame-10",
+          "fastening": {
+            "roles": [
+              "buffer"
+            ],
+            "count": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "legs",
+      "title": "拼装四条腿",
+      "subtitle": "侧摆、髋、膝关节及线束",
+      "pages": "8–22",
+      "steps": [
+        {
+          "title": "左前 · 装入膝关节电机",
+          "detail": "确认腿部刻印为 L，将 KNEE 电机带箭头的一侧置入大腿槽。",
+          "kind": "part",
+          "page": 9,
+          "role": "kneeMotor",
+          "stage": true,
+          "leg": "LF",
+          "id": "legs-01"
+        },
+        {
+          "title": "左前 · 紧固膝电机",
+          "detail": "用 6 颗 M3×8 螺丝固定膝关节电机。",
+          "kind": "confirm",
+          "page": 10,
+          "uiLabel": "确认已完成",
+          "leg": "LF",
+          "id": "legs-02",
+          "fastening": {
+            "roles": [
+              "kneeMotor"
+            ],
+            "count": 6
+          }
+        },
+        {
+          "title": "左前 · 扣合大腿抱箍",
+          "detail": "取内侧带 L 标记的抱箍，与大腿根部扣合。",
+          "kind": "part",
+          "page": 10,
+          "role": "thighClamp",
+          "stage": true,
+          "leg": "LF",
+          "id": "legs-03",
+          "afterFastening": {
+            "roles": [
+              "thighClamp"
+            ],
+            "count": 4,
+            "title": "左前 · 紧固大腿抱箍"
+          }
+        },
+        {
+          "title": "左前 · 对接髋关节电机",
+          "detail": "核对 HIPYLFXX 标签，并将髋关节电机与膝关节电机相接。",
+          "kind": "part",
+          "page": 10,
+          "role": "hipMotor",
+          "stage": true,
+          "leg": "LF",
+          "id": "legs-04"
+        },
+        {
+          "title": "左前 · 连接髋膝线束",
+          "detail": "将髋电机线插入膝关节接口，确认插接到位。",
+          "kind": "confirm",
+          "page": 10,
+          "uiLabel": "确认已完成",
+          "leg": "LF",
+          "id": "legs-05"
+        },
+        {
+          "title": "左前 · 安装髋膝抱箍",
+          "detail": "选择两件髋膝抱箍盖，扣住髋、膝电机的连接面。",
+          "kind": "part",
+          "page": 11,
+          "role": "motorClamp",
+          "stage": true,
+          "leg": "LF",
+          "id": "legs-06"
+        },
+        {
+          "title": "左前 · 紧固髋膝抱箍",
+          "detail": "用 2 颗 M3×8 螺丝紧固抱箍。",
+          "kind": "confirm",
+          "page": 11,
+          "uiLabel": "确认已完成",
+          "leg": "LF",
+          "id": "legs-07",
+          "fastening": {
+            "roles": [
+              "hipKneeClamp"
+            ],
+            "count": 2
+          }
+        },
+        {
+          "title": "左前 · 对齐侧摆关节",
+          "detail": "核对 HIPXLFRR 标签向上，输出轴朝前。对正髋与侧摆电机安装孔。",
+          "kind": "part",
+          "page": 11,
+          "role": "rollMotor",
+          "stage": true,
+          "leg": "LF",
+          "id": "legs-08"
+        },
+        {
+          "title": "左前 · 固定侧摆并接线",
+          "detail": "用 2 颗 M6×16 螺丝固定侧摆电机。连接侧摆至髋的线束，使用 1 颗 M3×8 螺丝固定。",
+          "kind": "confirm",
+          "page": 11,
+          "uiLabel": "确认已完成",
+          "leg": "LF",
+          "id": "legs-09",
+          "fastening": {
+            "roles": [
+              "hipRoll"
+            ],
+            "count": 2,
+            "title": "左前 · 紧固侧摆电机",
+            "remaining": "把侧摆线束接入髋电机接口，确认插接到位。用 1 颗 M3×8 固定线扣。"
+          },
+          "wireFastening": {
+            "roles": [
+              "hipWire"
+            ],
+            "count": 1,
+            "title": "左前 · 固定线扣"
+          }
+        },
+        {
+          "title": "左后 · 装入膝关节电机",
+          "detail": "确认腿部刻印为 L，将 KNEE 电机带箭头的一侧置入大腿槽。",
+          "kind": "part",
+          "page": 13,
+          "role": "kneeMotor",
+          "stage": true,
+          "leg": "LR",
+          "id": "legs-10"
+        },
+        {
+          "title": "左后 · 紧固膝电机",
+          "detail": "用 6 颗 M3×8 螺丝固定膝关节电机。",
+          "kind": "confirm",
+          "page": 13,
+          "uiLabel": "确认已完成",
+          "leg": "LR",
+          "id": "legs-11",
+          "fastening": {
+            "roles": [
+              "kneeMotor"
+            ],
+            "count": 6
+          }
+        },
+        {
+          "title": "左后 · 扣合大腿抱箍",
+          "detail": "取内侧带 L 标记的抱箍，与大腿根部扣合。",
+          "kind": "part",
+          "page": 13,
+          "role": "thighClamp",
+          "stage": true,
+          "leg": "LR",
+          "id": "legs-12",
+          "afterFastening": {
+            "roles": [
+              "thighClamp"
+            ],
+            "count": 4,
+            "title": "左后 · 紧固大腿抱箍"
+          }
+        },
+        {
+          "title": "左后 · 对接髋关节电机",
+          "detail": "核对 HIPYLRXX 标签，并将髋关节电机与膝关节电机相接。",
+          "kind": "part",
+          "page": 14,
+          "role": "hipMotor",
+          "stage": true,
+          "leg": "LR",
+          "id": "legs-13"
+        },
+        {
+          "title": "左后 · 连接髋膝线束",
+          "detail": "将髋电机线插入膝关节接口，确认插接到位。",
+          "kind": "confirm",
+          "page": 14,
+          "uiLabel": "确认已完成",
+          "leg": "LR",
+          "id": "legs-14"
+        },
+        {
+          "title": "左后 · 安装髋膝抱箍",
+          "detail": "选择两件髋膝抱箍盖，扣住髋、膝电机的连接面。",
+          "kind": "part",
+          "page": 14,
+          "role": "motorClamp",
+          "stage": true,
+          "leg": "LR",
+          "id": "legs-15"
+        },
+        {
+          "title": "左后 · 紧固髋膝抱箍",
+          "detail": "用 2 颗 M3×8 螺丝紧固抱箍。",
+          "kind": "confirm",
+          "page": 14,
+          "uiLabel": "确认已完成",
+          "leg": "LR",
+          "id": "legs-16",
+          "fastening": {
+            "roles": [
+              "hipKneeClamp"
+            ],
+            "count": 2
+          }
+        },
+        {
+          "title": "左后 · 对齐侧摆关节",
+          "detail": "核对 HIPXLRRF 标签向上，输出轴朝后。对正髋与侧摆电机安装孔。",
+          "kind": "part",
+          "page": 14,
+          "role": "rollMotor",
+          "stage": true,
+          "leg": "LR",
+          "id": "legs-17"
+        },
+        {
+          "title": "左后 · 固定侧摆并接线",
+          "detail": "用 2 颗 M6×16 螺丝固定侧摆电机。连接侧摆至髋的线束，使用 1 颗 M3×8 螺丝固定。",
+          "kind": "confirm",
+          "page": 15,
+          "uiLabel": "确认已完成",
+          "leg": "LR",
+          "id": "legs-18",
+          "fastening": {
+            "roles": [
+              "hipRoll"
+            ],
+            "count": 2,
+            "title": "左后 · 紧固侧摆电机",
+            "remaining": "把侧摆线束接入髋电机接口，确认插接到位。用 1 颗 M3×8 固定线扣。"
+          },
+          "wireFastening": {
+            "roles": [
+              "hipWire"
+            ],
+            "count": 1,
+            "title": "左后 · 固定线扣"
+          }
+        },
+        {
+          "title": "右前 · 装入膝关节电机",
+          "detail": "确认腿部刻印为 R，将 KNEE 电机带箭头的一侧置入大腿槽。",
+          "kind": "part",
+          "page": 16,
+          "role": "kneeMotor",
+          "stage": true,
+          "leg": "RF",
+          "id": "legs-19"
+        },
+        {
+          "title": "右前 · 紧固膝电机",
+          "detail": "用 6 颗 M3×8 螺丝固定膝关节电机。",
+          "kind": "confirm",
+          "page": 16,
+          "uiLabel": "确认已完成",
+          "leg": "RF",
+          "id": "legs-20",
+          "fastening": {
+            "roles": [
+              "kneeMotor"
+            ],
+            "count": 6
+          }
+        },
+        {
+          "title": "右前 · 扣合大腿抱箍",
+          "detail": "取内侧带 R 标记的抱箍，与大腿根部扣合。",
+          "kind": "part",
+          "page": 17,
+          "role": "thighClamp",
+          "stage": true,
+          "leg": "RF",
+          "id": "legs-21",
+          "afterFastening": {
+            "roles": [
+              "thighClamp"
+            ],
+            "count": 4,
+            "title": "右前 · 紧固大腿抱箍"
+          }
+        },
+        {
+          "title": "右前 · 对接髋关节电机",
+          "detail": "核对 HIPYRFXX 标签，并将髋关节电机与膝关节电机相接。",
+          "kind": "part",
+          "page": 17,
+          "role": "hipMotor",
+          "stage": true,
+          "leg": "RF",
+          "id": "legs-22"
+        },
+        {
+          "title": "右前 · 连接髋膝线束",
+          "detail": "将髋电机线插入膝关节接口，确认插接到位。",
+          "kind": "confirm",
+          "page": 17,
+          "uiLabel": "确认已完成",
+          "leg": "RF",
+          "id": "legs-23"
+        },
+        {
+          "title": "右前 · 安装髋膝抱箍",
+          "detail": "选择两件髋膝抱箍盖，扣住髋、膝电机的连接面。",
+          "kind": "part",
+          "page": 17,
+          "role": "motorClamp",
+          "stage": true,
+          "leg": "RF",
+          "id": "legs-24"
+        },
+        {
+          "title": "右前 · 紧固髋膝抱箍",
+          "detail": "用 2 颗 M3×8 螺丝紧固抱箍。",
+          "kind": "confirm",
+          "page": 17,
+          "uiLabel": "确认已完成",
+          "leg": "RF",
+          "id": "legs-25",
+          "fastening": {
+            "roles": [
+              "hipKneeClamp"
+            ],
+            "count": 2
+          }
+        },
+        {
+          "title": "右前 · 对齐侧摆关节",
+          "detail": "核对 HIPXLRRF 标签向上，输出轴朝前。对正髋与侧摆电机安装孔。",
+          "kind": "part",
+          "page": 18,
+          "role": "rollMotor",
+          "stage": true,
+          "leg": "RF",
+          "id": "legs-26"
+        },
+        {
+          "title": "右前 · 固定侧摆并接线",
+          "detail": "用 2 颗 M6×16 螺丝固定侧摆电机。连接侧摆至髋的线束，使用 1 颗 M3×8 螺丝固定。",
+          "kind": "confirm",
+          "page": 18,
+          "uiLabel": "确认已完成",
+          "leg": "RF",
+          "id": "legs-27",
+          "fastening": {
+            "roles": [
+              "hipRoll"
+            ],
+            "count": 2,
+            "title": "右前 · 紧固侧摆电机",
+            "remaining": "把侧摆线束接入髋电机接口，确认插接到位。用 1 颗 M3×8 固定线扣。"
+          },
+          "wireFastening": {
+            "roles": [
+              "hipWire"
+            ],
+            "count": 1,
+            "title": "右前 · 固定线扣"
+          }
+        },
+        {
+          "title": "右后 · 装入膝关节电机",
+          "detail": "确认腿部刻印为 R，将 KNEE 电机带箭头的一侧置入大腿槽。",
+          "kind": "part",
+          "page": 19,
+          "role": "kneeMotor",
+          "stage": true,
+          "leg": "RR",
+          "id": "legs-28"
+        },
+        {
+          "title": "右后 · 紧固膝电机",
+          "detail": "用 6 颗 M3×8 螺丝固定膝关节电机。",
+          "kind": "confirm",
+          "page": 19,
+          "uiLabel": "确认已完成",
+          "leg": "RR",
+          "id": "legs-29",
+          "fastening": {
+            "roles": [
+              "kneeMotor"
+            ],
+            "count": 6
+          }
+        },
+        {
+          "title": "右后 · 扣合大腿抱箍",
+          "detail": "取内侧带 R 标记的抱箍，与大腿根部扣合。",
+          "kind": "part",
+          "page": 20,
+          "role": "thighClamp",
+          "stage": true,
+          "leg": "RR",
+          "id": "legs-30",
+          "afterFastening": {
+            "roles": [
+              "thighClamp"
+            ],
+            "count": 4,
+            "title": "右后 · 紧固大腿抱箍"
+          }
+        },
+        {
+          "title": "右后 · 对接髋关节电机",
+          "detail": "核对 HIPYRRXX 标签，并将髋关节电机与膝关节电机相接。",
+          "kind": "part",
+          "page": 20,
+          "role": "hipMotor",
+          "stage": true,
+          "leg": "RR",
+          "id": "legs-31"
+        },
+        {
+          "title": "右后 · 连接髋膝线束",
+          "detail": "将髋电机线插入膝关节接口，确认插接到位。",
+          "kind": "confirm",
+          "page": 20,
+          "uiLabel": "确认已完成",
+          "leg": "RR",
+          "id": "legs-32"
+        },
+        {
+          "title": "右后 · 安装髋膝抱箍",
+          "detail": "选择两件髋膝抱箍盖，扣住髋、膝电机的连接面。",
+          "kind": "part",
+          "page": 21,
+          "role": "motorClamp",
+          "stage": true,
+          "leg": "RR",
+          "id": "legs-33"
+        },
+        {
+          "title": "右后 · 紧固髋膝抱箍",
+          "detail": "用 2 颗 M3×8 螺丝紧固抱箍。",
+          "kind": "confirm",
+          "page": 21,
+          "uiLabel": "确认已完成",
+          "leg": "RR",
+          "id": "legs-34",
+          "fastening": {
+            "roles": [
+              "hipKneeClamp"
+            ],
+            "count": 2
+          }
+        },
+        {
+          "title": "右后 · 对齐侧摆关节",
+          "detail": "核对 HIPXLFRR 标签向上，输出轴朝后。对正髋与侧摆电机安装孔。",
+          "kind": "part",
+          "page": 21,
+          "role": "rollMotor",
+          "stage": true,
+          "leg": "RR",
+          "id": "legs-35"
+        },
+        {
+          "title": "右后 · 固定侧摆并接线",
+          "detail": "用 2 颗 M6×16 螺丝固定侧摆电机。连接侧摆至髋的线束，使用 1 颗 M3×8 螺丝固定。",
+          "kind": "confirm",
+          "page": 21,
+          "uiLabel": "确认已完成",
+          "leg": "RR",
+          "id": "legs-36",
+          "fastening": {
+            "roles": [
+              "hipRoll"
+            ],
+            "count": 2,
+            "title": "右后 · 紧固侧摆电机",
+            "remaining": "把侧摆线束接入髋电机接口，确认插接到位。用 1 颗 M3×8 固定线扣。"
+          },
+          "wireFastening": {
+            "roles": [
+              "hipWire"
+            ],
+            "count": 1,
+            "title": "右后 · 固定线扣"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mount",
+      "title": "四腿装入躯干",
+      "subtitle": "安装位、抱箍与把手",
+      "pages": "22–25",
+      "steps": [
+        {
+          "title": "左前 · 装腿入位",
+          "detail": "把左前腿组件装到躯干 LF 位置，输出轴朝前。",
+          "kind": "part",
+          "page": 23,
+          "role": "leg",
+          "stage": true,
+          "leg": "LF",
+          "id": "mount-01"
+        },
+        {
+          "title": "左前 · 装躯干抱箍",
+          "detail": "找到 LF 安装位的躯干抱箍，扣合侧摆关节。",
+          "kind": "part",
+          "page": 23,
+          "role": "bodyClamp",
+          "stage": true,
+          "leg": "LF",
+          "id": "mount-02"
+        },
+        {
+          "title": "左前 · 固定并插线",
+          "detail": "用 2 颗 M6×16 紧固抱箍。将电控盒线束接入侧摆电机，以 1 颗 M3×8 固定。",
+          "kind": "confirm",
+          "page": 23,
+          "uiLabel": "确认已完成",
+          "leg": "LF",
+          "id": "mount-03",
+          "fastening": {
+            "roles": [
+              "legClamp"
+            ],
+            "count": 2,
+            "title": "左前 · 紧固躯干抱箍",
+            "remaining": "把电控盒线束接入侧摆电机，确认插接到位。用 1 颗 M3×8 固定线扣。"
+          },
+          "wireFastening": {
+            "roles": [
+              "bodyWire"
+            ],
+            "count": 1,
+            "title": "左前 · 固定线扣"
+          }
+        },
+        {
+          "title": "左后 · 装腿入位",
+          "detail": "把左后腿组件装到躯干 LR 位置，输出轴朝后。",
+          "kind": "part",
+          "page": 24,
+          "role": "leg",
+          "stage": true,
+          "leg": "LR",
+          "id": "mount-04"
+        },
+        {
+          "title": "左后 · 装躯干抱箍",
+          "detail": "找到 LR 安装位的躯干抱箍，扣合侧摆关节。",
+          "kind": "part",
+          "page": 24,
+          "role": "bodyClamp",
+          "stage": true,
+          "leg": "LR",
+          "id": "mount-05"
+        },
+        {
+          "title": "左后 · 固定并插线",
+          "detail": "用 2 颗 M6×16 紧固抱箍。将电控盒线束接入侧摆电机，以 1 颗 M3×8 固定。",
+          "kind": "confirm",
+          "page": 24,
+          "uiLabel": "确认已完成",
+          "leg": "LR",
+          "id": "mount-06",
+          "fastening": {
+            "roles": [
+              "legClamp"
+            ],
+            "count": 2,
+            "title": "左后 · 紧固躯干抱箍",
+            "remaining": "把电控盒线束接入侧摆电机，确认插接到位。用 1 颗 M3×8 固定线扣。"
+          },
+          "wireFastening": {
+            "roles": [
+              "bodyWire"
+            ],
+            "count": 1,
+            "title": "左后 · 固定线扣"
+          }
+        },
+        {
+          "title": "右前 · 装腿入位",
+          "detail": "把右前腿组件装到躯干 RF 位置，输出轴朝前。",
+          "kind": "part",
+          "page": 24,
+          "role": "leg",
+          "stage": true,
+          "leg": "RF",
+          "id": "mount-07"
+        },
+        {
+          "title": "右前 · 装躯干抱箍",
+          "detail": "找到 RF 安装位的躯干抱箍，扣合侧摆关节。",
+          "kind": "part",
+          "page": 24,
+          "role": "bodyClamp",
+          "stage": true,
+          "leg": "RF",
+          "id": "mount-08"
+        },
+        {
+          "title": "右前 · 固定并插线",
+          "detail": "用 2 颗 M6×16 紧固抱箍。将电控盒线束接入侧摆电机，以 1 颗 M3×8 固定。",
+          "kind": "confirm",
+          "page": 24,
+          "uiLabel": "确认已完成",
+          "leg": "RF",
+          "id": "mount-09",
+          "fastening": {
+            "roles": [
+              "legClamp"
+            ],
+            "count": 2,
+            "title": "右前 · 紧固躯干抱箍",
+            "remaining": "把电控盒线束接入侧摆电机，确认插接到位。用 1 颗 M3×8 固定线扣。"
+          },
+          "wireFastening": {
+            "roles": [
+              "bodyWire"
+            ],
+            "count": 1,
+            "title": "右前 · 固定线扣"
+          }
+        },
+        {
+          "title": "右后 · 装腿入位",
+          "detail": "把右后腿组件装到躯干 RR 位置，输出轴朝后。",
+          "kind": "part",
+          "page": 24,
+          "role": "leg",
+          "stage": true,
+          "leg": "RR",
+          "id": "mount-10"
+        },
+        {
+          "title": "右后 · 装躯干抱箍",
+          "detail": "找到 RR 安装位的躯干抱箍，扣合侧摆关节。",
+          "kind": "part",
+          "page": 24,
+          "role": "bodyClamp",
+          "stage": true,
+          "leg": "RR",
+          "id": "mount-11"
+        },
+        {
+          "title": "右后 · 固定并插线",
+          "detail": "用 2 颗 M6×16 紧固抱箍。将电控盒线束接入侧摆电机，以 1 颗 M3×8 固定。",
+          "kind": "confirm",
+          "page": 24,
+          "uiLabel": "确认已完成",
+          "leg": "RR",
+          "id": "mount-12",
+          "fastening": {
+            "roles": [
+              "legClamp"
+            ],
+            "count": 2,
+            "title": "右后 · 紧固躯干抱箍",
+            "remaining": "把电控盒线束接入侧摆电机，确认插接到位。用 1 颗 M3×8 固定线扣。"
+          },
+          "wireFastening": {
+            "roles": [
+              "bodyWire"
+            ],
+            "count": 1,
+            "title": "右后 · 固定线扣"
+          }
+        },
+        {
+          "title": "嵌入把手轴套",
+          "detail": "选取四个轴套，分别装入两个把手的圆孔。",
+          "kind": "part",
+          "page": 24,
+          "role": "sleeve",
+          "stage": true,
+          "id": "mount-13"
+        },
+        {
+          "title": "安装前后把手",
+          "detail": "将两件带轴套的把手装入图示位置，对齐端部孔位。",
+          "kind": "part",
+          "page": 24,
+          "role": "handle",
+          "stage": true,
+          "id": "mount-14"
+        },
+        {
+          "title": "锁紧把手",
+          "detail": "两个把手共用 8 颗 M6×16 螺丝。确认对齐并紧固。",
+          "kind": "confirm",
+          "page": 25,
+          "uiLabel": "确认已完成",
+          "id": "mount-15",
+          "fastening": {
+            "roles": [
+              "handle"
+            ],
+            "count": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "battery",
+      "title": "安装电池",
+      "subtitle": "趴下、抬腿、翻起把手、推入与扣合",
+      "pages": "25–26",
+      "steps": [
+        {
+          "title": "摆出趴下姿态",
+          "detail": "让机身下降，为装入电池留出操作空间。",
+          "kind": "action",
+          "page": 26,
+          "uiLabel": "趴下",
+          "effect": {
+            "pose": "crouch"
+          },
+          "id": "battery-01"
+        },
+        {
+          "title": "抬起右前腿",
+          "detail": "抬起 RF 腿，给右侧电池入口留出空间。",
+          "kind": "action",
+          "page": 26,
+          "uiLabel": "抬起右前腿",
+          "effect": {
+            "pose": "liftRF"
+          },
+          "id": "battery-02"
+        },
+        {
+          "title": "翻起电池把手",
+          "detail": "选择电池侧面可翻转的长把手，沿铰链轴翻起。",
+          "kind": "part",
+          "page": 26,
+          "role": "batteryHandle",
+          "uiLabel": "翻起把手",
+          "effect": {
+            "handleOpen": true
+          },
+          "id": "battery-03"
+        },
+        {
+          "title": "沿槽推进电池",
+          "detail": "选择电池组，沿右侧入口将其推到电控盒底部。",
+          "kind": "part",
+          "page": 26,
+          "role": "battery",
+          "uiLabel": "推入电池",
+          "effect": {
+            "batteryOut": false
+          },
+          "id": "battery-04"
+        },
+        {
+          "title": "压下把手锁合",
+          "detail": "选择电池把手，向下扣回。",
+          "kind": "part",
+          "page": 26,
+          "role": "batteryHandle",
+          "uiLabel": "扣合把手",
+          "effect": {
+            "handleOpen": false
+          },
+          "id": "battery-05"
+        }
+      ]
+    }
+  ]
+}

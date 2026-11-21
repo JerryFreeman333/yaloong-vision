@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><link rel="icon" href="data:,"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#203333">
+<meta name="description" content="从底框第一根长梁开始，亲手拼装四条腿、连接线束并安装电池，完成 BLACK PANTHER X 整机。">
+<title>BPX Studio · 从零组装机器狗</title>
+</head>
+<body><div id="root"></div><script type="module">
+  function openLegacyStation() {
+    if (!location.hash.startsWith('#station/')) return false;
+    location.replace('./stations.html' + location.search + location.hash);
+    return true;
+  }
+  if (!openLegacyStation()) {
+    window.addEventListener('hashchange', openLegacyStation);
+    import('./src/whole-course.jsx');
+  }
+</script></body>
+</html>

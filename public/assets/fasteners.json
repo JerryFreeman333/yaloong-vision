@@ -1,0 +1,2599 @@
+{
+  "unit": "mm",
+  "source": "BPX.step and assembly manual",
+  "note": "Measured CAD head seats. Socket head and thread profiles are nominal representations.",
+  "items": [
+    {
+      "id": "bpx1_1_1_bolt1",
+      "hostId": "bpx1_1_1",
+      "spec": "M6×22",
+      "role": "controlBox",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        13.69089,
+        98.20261,
+        1068.50444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        87.5
+      ],
+      "cadFace": 501494
+    },
+    {
+      "id": "bpx1_1_1_bolt2",
+      "hostId": "bpx1_1_1",
+      "spec": "M6×22",
+      "role": "frameBase",
+      "leg": null,
+      "page": 6,
+      "seat": [
+        13.69089,
+        98.20261,
+        1040.00444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        116
+      ],
+      "cadFace": 751831
+    },
+    {
+      "id": "bpx1_1_1_bolt3",
+      "hostId": "bpx1_1_1",
+      "spec": "M6×22",
+      "role": "frameBase",
+      "leg": null,
+      "page": 6,
+      "seat": [
+        13.69089,
+        98.20261,
+        927.00444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        229
+      ],
+      "cadFace": 714342
+    },
+    {
+      "id": "bpx1_1_1_bolt4",
+      "hostId": "bpx1_1_1",
+      "spec": "M6×22",
+      "role": "controlBox",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        13.69089,
+        98.20261,
+        898.50444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        257.5
+      ],
+      "cadFace": 232550
+    },
+    {
+      "id": "bpx1_1_2_bolt1",
+      "hostId": "bpx1_1_2",
+      "spec": "M6×22",
+      "role": "controlBox",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -134.10911,
+        98.20261,
+        898.50444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        87.5
+      ],
+      "cadFace": 501494
+    },
+    {
+      "id": "bpx1_1_2_bolt2",
+      "hostId": "bpx1_1_2",
+      "spec": "M6×22",
+      "role": "frameBase",
+      "leg": null,
+      "page": 6,
+      "seat": [
+        -134.10911,
+        98.20261,
+        927.00444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        116
+      ],
+      "cadFace": 751831
+    },
+    {
+      "id": "bpx1_1_2_bolt3",
+      "hostId": "bpx1_1_2",
+      "spec": "M6×22",
+      "role": "frameBase",
+      "leg": null,
+      "page": 6,
+      "seat": [
+        -134.10911,
+        98.20261,
+        1040.00444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        229
+      ],
+      "cadFace": 714342
+    },
+    {
+      "id": "bpx1_1_2_bolt4",
+      "hostId": "bpx1_1_2",
+      "spec": "M6×22",
+      "role": "controlBox",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -134.10911,
+        98.20261,
+        1068.50444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        257.5
+      ],
+      "cadFace": 232550
+    },
+    {
+      "id": "bpx1_1_5_bolt1",
+      "hostId": "bpx1_1_5",
+      "spec": "M6×16",
+      "role": "frameBracket",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -130.20911,
+        98.20261,
+        1145.50444
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "seatLocal": [
+        -70,
+        -69.93,
+        24.4
+      ],
+      "cadFace": 300658
+    },
+    {
+      "id": "bpx1_1_5_bolt2",
+      "hostId": "bpx1_1_5",
+      "spec": "M6×16",
+      "role": "frameBracket",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -130.20911,
+        231.06261,
+        1145.50444
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "seatLocal": [
+        -70,
+        62.93,
+        24.4
+      ],
+      "cadFace": 335808
+    },
+    {
+      "id": "bpx1_1_5_bolt3",
+      "hostId": "bpx1_1_5",
+      "spec": "M6×16",
+      "role": "frameBracket",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        9.79089,
+        98.20261,
+        1145.50444
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "seatLocal": [
+        70,
+        -69.93,
+        24.4
+      ],
+      "cadFace": 771951
+    },
+    {
+      "id": "bpx1_1_5_bolt4",
+      "hostId": "bpx1_1_5",
+      "spec": "M6×16",
+      "role": "frameBracket",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        9.79089,
+        231.06261,
+        1145.50444
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "seatLocal": [
+        70,
+        62.93,
+        24.4
+      ],
+      "cadFace": 130610
+    },
+    {
+      "id": "bpx1_1_6_bolt1",
+      "hostId": "bpx1_1_6",
+      "spec": "M6×22",
+      "role": "controlBox",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -134.10911,
+        231.06261,
+        898.50444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        87.5
+      ],
+      "cadFace": 501494
+    },
+    {
+      "id": "bpx1_1_6_bolt2",
+      "hostId": "bpx1_1_6",
+      "spec": "M6×22",
+      "role": "controlBox",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -134.10911,
+        231.06261,
+        1068.50444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        257.5
+      ],
+      "cadFace": 232550
+    },
+    {
+      "id": "bpx1_1_7_bolt1",
+      "hostId": "bpx1_1_7",
+      "spec": "M6×22",
+      "role": "controlBox",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        13.69089,
+        231.06261,
+        1068.50444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        87.5
+      ],
+      "cadFace": 501494
+    },
+    {
+      "id": "bpx1_1_7_bolt2",
+      "hostId": "bpx1_1_7",
+      "spec": "M6×22",
+      "role": "controlBox",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        13.69089,
+        231.06261,
+        898.50444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        5837.0355,
+        2827.44981,
+        257.5
+      ],
+      "cadFace": 232550
+    },
+    {
+      "id": "bpx1_1_8_bolt1",
+      "hostId": "bpx1_1_8",
+      "spec": "M6×16",
+      "role": "frameBracket",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        9.79089,
+        98.20261,
+        821.50444
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "seatLocal": [
+        -70,
+        -69.93,
+        24.4
+      ],
+      "cadFace": 300658
+    },
+    {
+      "id": "bpx1_1_8_bolt2",
+      "hostId": "bpx1_1_8",
+      "spec": "M6×16",
+      "role": "frameBracket",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        9.79089,
+        231.06261,
+        821.50444
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "seatLocal": [
+        -70,
+        62.93,
+        24.4
+      ],
+      "cadFace": 335808
+    },
+    {
+      "id": "bpx1_1_8_bolt3",
+      "hostId": "bpx1_1_8",
+      "spec": "M6×16",
+      "role": "frameBracket",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -130.20911,
+        98.20261,
+        821.50444
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "seatLocal": [
+        70,
+        -69.93,
+        24.4
+      ],
+      "cadFace": 771951
+    },
+    {
+      "id": "bpx1_1_8_bolt4",
+      "hostId": "bpx1_1_8",
+      "spec": "M6×16",
+      "role": "frameBracket",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -130.20911,
+        231.06261,
+        821.50444
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "seatLocal": [
+        70,
+        62.93,
+        24.4
+      ],
+      "cadFace": 130610
+    },
+    {
+      "id": "bpx1_1_9_bolt1",
+      "hostId": "bpx1_1_9",
+      "spec": "M6×16",
+      "role": "buffer",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -130.20911,
+        83.20261,
+        1121.00464
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        -21,
+        5,
+        0
+      ],
+      "cadFace": 458918
+    },
+    {
+      "id": "bpx1_1_9_bolt2",
+      "hostId": "bpx1_1_9",
+      "spec": "M6×16",
+      "role": "buffer",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -130.20911,
+        83.20261,
+        1079.00464
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        21,
+        5,
+        0
+      ],
+      "cadFace": 665823
+    },
+    {
+      "id": "bpx1_1_10_bolt1",
+      "hostId": "bpx1_1_10",
+      "spec": "M6×16",
+      "role": "buffer",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        9.79089,
+        83.20261,
+        1121.00464
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        -21,
+        5,
+        0
+      ],
+      "cadFace": 458918
+    },
+    {
+      "id": "bpx1_1_10_bolt2",
+      "hostId": "bpx1_1_10",
+      "spec": "M6×16",
+      "role": "buffer",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        9.79089,
+        83.20261,
+        1079.00464
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        21,
+        5,
+        0
+      ],
+      "cadFace": 665823
+    },
+    {
+      "id": "bpx1_1_11_bolt1",
+      "hostId": "bpx1_1_11",
+      "spec": "M6×16",
+      "role": "buffer",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -130.20911,
+        83.20261,
+        846.00464
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        -21,
+        5,
+        0
+      ],
+      "cadFace": 458918
+    },
+    {
+      "id": "bpx1_1_11_bolt2",
+      "hostId": "bpx1_1_11",
+      "spec": "M6×16",
+      "role": "buffer",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        -130.20911,
+        83.20261,
+        888.00464
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        21,
+        5,
+        0
+      ],
+      "cadFace": 665823
+    },
+    {
+      "id": "bpx1_1_12_bolt1",
+      "hostId": "bpx1_1_12",
+      "spec": "M6×16",
+      "role": "buffer",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        9.79089,
+        83.20261,
+        846.00464
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        -21,
+        5,
+        0
+      ],
+      "cadFace": 458918
+    },
+    {
+      "id": "bpx1_1_12_bolt2",
+      "hostId": "bpx1_1_12",
+      "spec": "M6×16",
+      "role": "buffer",
+      "leg": null,
+      "page": 7,
+      "seat": [
+        9.79089,
+        83.20261,
+        888.00464
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        21,
+        5,
+        0
+      ],
+      "cadFace": 665823
+    },
+    {
+      "id": "bpx1_1_13_bolt1",
+      "hostId": "bpx1_1_13",
+      "spec": "M6×16",
+      "role": "legClamp",
+      "leg": "LF",
+      "page": 23,
+      "seat": [
+        18.19089,
+        209.63261,
+        1146.45444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        -45,
+        22.4,
+        15.9
+      ],
+      "cadFace": 748758
+    },
+    {
+      "id": "bpx1_1_13_bolt2",
+      "hostId": "bpx1_1_13",
+      "spec": "M6×16",
+      "role": "legClamp",
+      "leg": "LF",
+      "page": 23,
+      "seat": [
+        18.19089,
+        119.63261,
+        1146.45444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        45,
+        22.4,
+        15.9
+      ],
+      "cadFace": 41470
+    },
+    {
+      "id": "bpx1_1_14_bolt1",
+      "hostId": "bpx1_1_14",
+      "spec": "M6×16",
+      "role": "legClamp",
+      "leg": "RF",
+      "page": 24,
+      "seat": [
+        -138.60911,
+        119.63261,
+        1146.45444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        -45,
+        22.4,
+        15.9
+      ],
+      "cadFace": 748758
+    },
+    {
+      "id": "bpx1_1_14_bolt2",
+      "hostId": "bpx1_1_14",
+      "spec": "M6×16",
+      "role": "legClamp",
+      "leg": "RF",
+      "page": 24,
+      "seat": [
+        -138.60911,
+        209.63261,
+        1146.45444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        45,
+        22.4,
+        15.9
+      ],
+      "cadFace": 41470
+    },
+    {
+      "id": "bpx1_1_15_bolt1",
+      "hostId": "bpx1_1_15",
+      "spec": "M6×16",
+      "role": "handle",
+      "leg": null,
+      "page": 25,
+      "seat": [
+        -70.00911,
+        183.08261,
+        1158.10444
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "seatLocal": [
+        9.79762,
+        -313.83135,
+        87.65144
+      ],
+      "cadFace": 566182
+    },
+    {
+      "id": "bpx1_1_15_bolt2",
+      "hostId": "bpx1_1_15",
+      "spec": "M6×16",
+      "role": "handle",
+      "leg": null,
+      "page": 25,
+      "seat": [
+        -50.41387,
+        183.08261,
+        1158.10444
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "seatLocal": [
+        -9.79762,
+        -313.83135,
+        87.65144
+      ],
+      "cadFace": 716392
+    },
+    {
+      "id": "bpx1_1_15_bolt3",
+      "hostId": "bpx1_1_15",
+      "spec": "M6×16",
+      "role": "handle",
+      "leg": null,
+      "page": 25,
+      "seat": [
+        -50.41387,
+        146.18261,
+        1158.10444
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "seatLocal": [
+        -9.79762,
+        -313.83135,
+        124.55144
+      ],
+      "cadFace": 287657
+    },
+    {
+      "id": "bpx1_1_15_bolt4",
+      "hostId": "bpx1_1_15",
+      "spec": "M6×16",
+      "role": "handle",
+      "leg": null,
+      "page": 25,
+      "seat": [
+        -70.00911,
+        146.18261,
+        1158.10444
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "seatLocal": [
+        9.79762,
+        -313.83135,
+        124.55144
+      ],
+      "cadFace": 106849
+    },
+    {
+      "id": "bpx1_1_18_bolt1",
+      "hostId": "bpx1_1_18",
+      "spec": "M6×16",
+      "role": "legClamp",
+      "leg": "LR",
+      "page": 24,
+      "seat": [
+        18.19089,
+        119.63261,
+        820.55444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        -45,
+        22.4,
+        15.9
+      ],
+      "cadFace": 748758
+    },
+    {
+      "id": "bpx1_1_18_bolt2",
+      "hostId": "bpx1_1_18",
+      "spec": "M6×16",
+      "role": "legClamp",
+      "leg": "LR",
+      "page": 24,
+      "seat": [
+        18.19089,
+        209.63261,
+        820.55444
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        45,
+        22.4,
+        15.9
+      ],
+      "cadFace": 41470
+    },
+    {
+      "id": "bpx1_1_19_bolt1",
+      "hostId": "bpx1_1_19",
+      "spec": "M6×16",
+      "role": "legClamp",
+      "leg": "RR",
+      "page": 24,
+      "seat": [
+        -138.60911,
+        209.63261,
+        820.55444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        -45,
+        22.4,
+        15.9
+      ],
+      "cadFace": 748758
+    },
+    {
+      "id": "bpx1_1_19_bolt2",
+      "hostId": "bpx1_1_19",
+      "spec": "M6×16",
+      "role": "legClamp",
+      "leg": "RR",
+      "page": 24,
+      "seat": [
+        -138.60911,
+        119.63261,
+        820.55444
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        45,
+        22.4,
+        15.9
+      ],
+      "cadFace": 41470
+    },
+    {
+      "id": "bpx1_1_20_bolt1",
+      "hostId": "bpx1_1_20",
+      "spec": "M6×16",
+      "role": "handle",
+      "leg": null,
+      "page": 25,
+      "seat": [
+        -70.00911,
+        146.18261,
+        808.90444
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "seatLocal": [
+        9.79762,
+        -313.83135,
+        87.65144
+      ],
+      "cadFace": 566182
+    },
+    {
+      "id": "bpx1_1_20_bolt2",
+      "hostId": "bpx1_1_20",
+      "spec": "M6×16",
+      "role": "handle",
+      "leg": null,
+      "page": 25,
+      "seat": [
+        -50.41387,
+        146.18261,
+        808.90444
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "seatLocal": [
+        -9.79762,
+        -313.83135,
+        87.65144
+      ],
+      "cadFace": 716392
+    },
+    {
+      "id": "bpx1_1_20_bolt3",
+      "hostId": "bpx1_1_20",
+      "spec": "M6×16",
+      "role": "handle",
+      "leg": null,
+      "page": 25,
+      "seat": [
+        -50.41387,
+        183.08261,
+        808.90444
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "seatLocal": [
+        -9.79762,
+        -313.83135,
+        124.55144
+      ],
+      "cadFace": 287657
+    },
+    {
+      "id": "bpx1_1_20_bolt4",
+      "hostId": "bpx1_1_20",
+      "spec": "M6×16",
+      "role": "handle",
+      "leg": null,
+      "page": 25,
+      "seat": [
+        -70.00911,
+        183.08261,
+        808.90444
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "seatLocal": [
+        9.79762,
+        -313.83135,
+        124.55144
+      ],
+      "cadFace": 106849
+    },
+    {
+      "id": "bpx1_1_23_2_1_bolt1",
+      "hostId": "bpx1_1_23_2_1",
+      "spec": "M3×8",
+      "role": "bodyWire",
+      "leg": "LF",
+      "page": 23,
+      "seat": [
+        -4.20911,
+        130.16352,
+        1115.50444
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        0.28203,
+        1.4028,
+        33.5
+      ],
+      "cadFace": 796282
+    },
+    {
+      "id": "bpx1_1_23_3_bolt1",
+      "hostId": "bpx1_1_23_3",
+      "spec": "M6×16",
+      "role": "hipRoll",
+      "leg": "LF",
+      "page": 11,
+      "seat": [
+        -4.20911,
+        144.63261,
+        1186.20444
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        0,
+        -20,
+        -7
+      ],
+      "cadFace": 209539
+    },
+    {
+      "id": "bpx1_1_23_3_bolt2",
+      "hostId": "bpx1_1_23_3",
+      "spec": "M6×16",
+      "role": "hipRoll",
+      "leg": "LF",
+      "page": 11,
+      "seat": [
+        -4.20911,
+        184.63261,
+        1186.20444
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "seatLocal": [
+        0,
+        20,
+        -7
+      ],
+      "cadFace": 621243
+    },
+    {
+      "id": "bpx1_1_23_7_2_bolt1",
+      "hostId": "bpx1_1_23_7_2",
+      "spec": "M3×8",
+      "role": "hipWire",
+      "leg": "LF",
+      "page": 11,
+      "seat": [
+        -18.40911,
+        199.1017,
+        1222.20444
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "seatLocal": [
+        0.28203,
+        1.4028,
+        33.5
+      ],
+      "cadFace": 796282
+    },
+    {
+      "id": "bpx1_1_23_10_bolt1",
+      "hostId": "bpx1_1_23_10",
+      "spec": "M3×8",
+      "role": "hipKneeClamp",
+      "leg": "LF",
+      "page": 11,
+      "seat": [
+        54.29089,
+        196.13422,
+        1193.31913
+      ],
+      "axis": [
+        0,
+        0.7071068,
+        0.7071068
+      ],
+      "seatLocal": [
+        -42.7,
+        1.85,
+        8
+      ],
+      "cadFace": 439695
+    },
+    {
+      "id": "bpx1_1_23_11_bolt1",
+      "hostId": "bpx1_1_23_11",
+      "spec": "M3×8",
+      "role": "hipKneeClamp",
+      "leg": "LF",
+      "page": 11,
+      "seat": [
+        54.29089,
+        133.131,
+        1251.08976
+      ],
+      "axis": [
+        0,
+        -0.7071068,
+        -0.7071068
+      ],
+      "seatLocal": [
+        -42.7,
+        1.85,
+        8
+      ],
+      "cadFace": 439695
+    },
+    {
+      "id": "bpx1_1_23_13_bolt1",
+      "hostId": "bpx1_1_23_13",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        105.66089,
+        163.82847,
+        1234.17747
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        22.5,
+        -58.77,
+        0
+      ],
+      "cadFace": 539133
+    },
+    {
+      "id": "bpx1_1_23_13_bolt2",
+      "hostId": "bpx1_1_23_13",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        105.66089,
+        153.86159,
+        1227.49455
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        28.5,
+        -58.77,
+        -10.3923
+      ],
+      "cadFace": 267168
+    },
+    {
+      "id": "bpx1_1_23_13_bolt3",
+      "hostId": "bpx1_1_23_13",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        105.66089,
+        174.59948,
+        1228.88736
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        28.5,
+        -58.77,
+        10.3923
+      ],
+      "cadFace": 170680
+    },
+    {
+      "id": "bpx1_1_23_13_bolt4",
+      "hostId": "bpx1_1_23_13",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        105.66089,
+        175.40363,
+        1216.91434
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        40.5,
+        -58.77,
+        10.3923
+      ],
+      "cadFace": 328701
+    },
+    {
+      "id": "bpx1_1_23_13_bolt5",
+      "hostId": "bpx1_1_23_13",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        104.36089,
+        154.66574,
+        1215.52152
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        40.5,
+        -57.47,
+        -10.3923
+      ],
+      "cadFace": 68380
+    },
+    {
+      "id": "bpx1_1_23_13_bolt6",
+      "hostId": "bpx1_1_23_13",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        104.36089,
+        165.43675,
+        1210.23142
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        46.5,
+        -57.47,
+        0
+      ],
+      "cadFace": 482464
+    },
+    {
+      "id": "bpx1_1_23_19_bolt1",
+      "hostId": "bpx1_1_23_19",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        122.01089,
+        135.71194,
+        1253.6707
+      ],
+      "axis": [
+        0,
+        0.7071068,
+        0.7071068
+      ],
+      "seatLocal": [
+        -1.8,
+        -49.62,
+        -42.7
+      ],
+      "cadFace": 206786
+    },
+    {
+      "id": "bpx1_1_23_19_bolt2",
+      "hostId": "bpx1_1_23_19",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        122.01089,
+        196.09886,
+        1193.28378
+      ],
+      "axis": [
+        0,
+        0.7071068,
+        0.7071068
+      ],
+      "seatLocal": [
+        -1.8,
+        -49.62,
+        42.7
+      ],
+      "cadFace": 607392
+    },
+    {
+      "id": "bpx1_1_23_19_bolt3",
+      "hostId": "bpx1_1_23_19",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        81.84089,
+        135.12858,
+        1254.25406
+      ],
+      "axis": [
+        0,
+        0.7071068,
+        0.7071068
+      ],
+      "seatLocal": [
+        -1.8,
+        -9.45,
+        -43.525
+      ],
+      "cadFace": 82836
+    },
+    {
+      "id": "bpx1_1_23_19_bolt4",
+      "hostId": "bpx1_1_23_19",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "LF",
+      "page": 10,
+      "seat": [
+        81.84089,
+        196.68222,
+        1192.70041
+      ],
+      "axis": [
+        0,
+        0.7071068,
+        0.7071068
+      ],
+      "seatLocal": [
+        -1.8,
+        -9.45,
+        43.525
+      ],
+      "cadFace": 417061
+    },
+    {
+      "id": "bpx1_1_24_2_1_bolt1",
+      "hostId": "bpx1_1_24_2_1",
+      "spec": "M3×8",
+      "role": "bodyWire",
+      "leg": "RF",
+      "page": 24,
+      "seat": [
+        -116.20911,
+        130.16352,
+        1115.50444
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        0.28203,
+        1.4028,
+        33.5
+      ],
+      "cadFace": 338162
+    },
+    {
+      "id": "bpx1_1_24_3_bolt1",
+      "hostId": "bpx1_1_24_3",
+      "spec": "M6×16",
+      "role": "hipRoll",
+      "leg": "RF",
+      "page": 18,
+      "seat": [
+        -116.20911,
+        184.63261,
+        1186.20444
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "seatLocal": [
+        0,
+        -20,
+        -7
+      ],
+      "cadFace": 99450
+    },
+    {
+      "id": "bpx1_1_24_3_bolt2",
+      "hostId": "bpx1_1_24_3",
+      "spec": "M6×16",
+      "role": "hipRoll",
+      "leg": "RF",
+      "page": 18,
+      "seat": [
+        -116.20911,
+        144.63261,
+        1186.20444
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        0,
+        20,
+        -7
+      ],
+      "cadFace": 155521
+    },
+    {
+      "id": "bpx1_1_24_5_2_bolt1",
+      "hostId": "bpx1_1_24_5_2",
+      "spec": "M3×8",
+      "role": "hipWire",
+      "leg": "RF",
+      "page": 18,
+      "seat": [
+        -102.00911,
+        199.1017,
+        1222.20444
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "seatLocal": [
+        0.28203,
+        1.4028,
+        33.5
+      ],
+      "cadFace": 796282
+    },
+    {
+      "id": "bpx1_1_24_8_bolt1",
+      "hostId": "bpx1_1_24_8",
+      "spec": "M3×8",
+      "role": "hipKneeClamp",
+      "leg": "RF",
+      "page": 17,
+      "seat": [
+        -174.70911,
+        133.12699,
+        1251.08538
+      ],
+      "axis": [
+        0,
+        -0.7070085,
+        -0.7072051
+      ],
+      "seatLocal": [
+        -42.7,
+        1.85,
+        8
+      ],
+      "cadFace": 439695
+    },
+    {
+      "id": "bpx1_1_24_9_bolt1",
+      "hostId": "bpx1_1_24_9",
+      "spec": "M3×8",
+      "role": "hipKneeClamp",
+      "leg": "RF",
+      "page": 17,
+      "seat": [
+        -174.70911,
+        196.13823,
+        1193.32351
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        -42.7,
+        1.85,
+        8
+      ],
+      "locationSource": "按对侧抱箍和两个紧固孔建立装配姿态"
+    },
+    {
+      "id": "bpx1_1_24_11_bolt1",
+      "hostId": "bpx1_1_24_11",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "RF",
+      "page": 17,
+      "seat": [
+        -242.42911,
+        135.70757,
+        1253.66667
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        1.8,
+        -49.62,
+        -42.7
+      ],
+      "cadFace": 333879
+    },
+    {
+      "id": "bpx1_1_24_11_bolt2",
+      "hostId": "bpx1_1_24_11",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "RF",
+      "page": 17,
+      "seat": [
+        -242.42911,
+        196.10288,
+        1193.28815
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        1.8,
+        -49.62,
+        42.7
+      ],
+      "cadFace": 205459
+    },
+    {
+      "id": "bpx1_1_24_11_bolt3",
+      "hostId": "bpx1_1_24_11",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "RF",
+      "page": 17,
+      "seat": [
+        -202.25911,
+        135.12412,
+        1254.24996
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        1.8,
+        -9.45,
+        -43.525
+      ],
+      "cadFace": 832815
+    },
+    {
+      "id": "bpx1_1_24_11_bolt4",
+      "hostId": "bpx1_1_24_11",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "RF",
+      "page": 17,
+      "seat": [
+        -202.25911,
+        196.68633,
+        1192.70487
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        1.8,
+        -9.45,
+        43.525
+      ],
+      "cadFace": 556387
+    },
+    {
+      "id": "bpx1_1_24_12_bolt1",
+      "hostId": "bpx1_1_24_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RF",
+      "page": 16,
+      "seat": [
+        -226.07911,
+        163.8268,
+        1234.17736
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        22.5,
+        -41.63,
+        0
+      ],
+      "cadFace": 525883
+    },
+    {
+      "id": "bpx1_1_24_12_bolt2",
+      "hostId": "bpx1_1_24_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RF",
+      "page": 16,
+      "seat": [
+        -226.07911,
+        153.86086,
+        1227.49305
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        28.5,
+        -41.63,
+        -10.3923
+      ],
+      "cadFace": 328441
+    },
+    {
+      "id": "bpx1_1_24_12_bolt3",
+      "hostId": "bpx1_1_24_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RF",
+      "page": 16,
+      "seat": [
+        -226.07911,
+        174.59855,
+        1228.88875
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        28.5,
+        -41.63,
+        10.3923
+      ],
+      "cadFace": 431860
+    },
+    {
+      "id": "bpx1_1_24_12_bolt4",
+      "hostId": "bpx1_1_24_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RF",
+      "page": 16,
+      "seat": [
+        -224.77911,
+        154.66666,
+        1215.52014
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        40.5,
+        -42.93,
+        -10.3923
+      ],
+      "cadFace": 661040
+    },
+    {
+      "id": "bpx1_1_24_12_bolt5",
+      "hostId": "bpx1_1_24_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RF",
+      "page": 16,
+      "seat": [
+        -226.07911,
+        175.40436,
+        1216.91584
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        40.5,
+        -41.63,
+        10.3923
+      ],
+      "cadFace": 557897
+    },
+    {
+      "id": "bpx1_1_24_12_bolt6",
+      "hostId": "bpx1_1_24_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RF",
+      "page": 16,
+      "seat": [
+        -224.77911,
+        165.43842,
+        1210.23153
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        46.5,
+        -42.93,
+        0
+      ],
+      "cadFace": 573658
+    },
+    {
+      "id": "bpx1_1_25_2_1_bolt1",
+      "hostId": "bpx1_1_25_2_1",
+      "spec": "M3×8",
+      "role": "bodyWire",
+      "leg": "LR",
+      "page": 24,
+      "seat": [
+        -4.20911,
+        130.16352,
+        851.50444
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        0.28203,
+        1.4028,
+        33.5
+      ],
+      "cadFace": 338162
+    },
+    {
+      "id": "bpx1_1_25_3_bolt1",
+      "hostId": "bpx1_1_25_3",
+      "spec": "M6×16",
+      "role": "hipRoll",
+      "leg": "LR",
+      "page": 14,
+      "seat": [
+        -4.20911,
+        184.63261,
+        780.80444
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "seatLocal": [
+        0,
+        -20,
+        -7
+      ],
+      "cadFace": 209539
+    },
+    {
+      "id": "bpx1_1_25_3_bolt2",
+      "hostId": "bpx1_1_25_3",
+      "spec": "M6×16",
+      "role": "hipRoll",
+      "leg": "LR",
+      "page": 14,
+      "seat": [
+        -4.20911,
+        144.63261,
+        780.80444
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        0,
+        20,
+        -7
+      ],
+      "cadFace": 621243
+    },
+    {
+      "id": "bpx1_1_25_5_2_bolt1",
+      "hostId": "bpx1_1_25_5_2",
+      "spec": "M3×8",
+      "role": "hipWire",
+      "leg": "LR",
+      "page": 15,
+      "seat": [
+        -18.40911,
+        199.1017,
+        744.80924
+      ],
+      "axis": [
+        0,
+        1,
+        0.000139
+      ],
+      "seatLocal": [
+        0.28203,
+        1.4028,
+        33.5
+      ],
+      "cadFace": 796282
+    },
+    {
+      "id": "bpx1_1_25_8_bolt1",
+      "hostId": "bpx1_1_25_8",
+      "spec": "M3×8",
+      "role": "hipKneeClamp",
+      "leg": "LR",
+      "page": 14,
+      "seat": [
+        54.29089,
+        196.13823,
+        715.92351
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        -42.7,
+        1.85,
+        8
+      ],
+      "cadFace": 439695
+    },
+    {
+      "id": "bpx1_1_25_9_bolt1",
+      "hostId": "bpx1_1_25_9",
+      "spec": "M3×8",
+      "role": "hipKneeClamp",
+      "leg": "LR",
+      "page": 14,
+      "seat": [
+        54.29089,
+        133.12699,
+        773.68538
+      ],
+      "axis": [
+        0,
+        -0.7070085,
+        -0.7072051
+      ],
+      "seatLocal": [
+        -42.7,
+        1.85,
+        8
+      ],
+      "cadFace": 439695
+    },
+    {
+      "id": "bpx1_1_25_11_bolt1",
+      "hostId": "bpx1_1_25_11",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        105.66089,
+        163.8268,
+        756.77736
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        22.5,
+        -58.77,
+        0
+      ],
+      "cadFace": 539133
+    },
+    {
+      "id": "bpx1_1_25_11_bolt2",
+      "hostId": "bpx1_1_25_11",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        105.66089,
+        153.86086,
+        750.09305
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        28.5,
+        -58.77,
+        -10.3923
+      ],
+      "cadFace": 267168
+    },
+    {
+      "id": "bpx1_1_25_11_bolt3",
+      "hostId": "bpx1_1_25_11",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        105.66089,
+        174.59855,
+        751.48875
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        28.5,
+        -58.77,
+        10.3923
+      ],
+      "cadFace": 170680
+    },
+    {
+      "id": "bpx1_1_25_11_bolt4",
+      "hostId": "bpx1_1_25_11",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        105.66089,
+        175.40436,
+        739.51584
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        40.5,
+        -58.77,
+        10.3923
+      ],
+      "cadFace": 328701
+    },
+    {
+      "id": "bpx1_1_25_11_bolt5",
+      "hostId": "bpx1_1_25_11",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        104.36089,
+        154.66666,
+        738.12014
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        40.5,
+        -57.47,
+        -10.3923
+      ],
+      "cadFace": 68380
+    },
+    {
+      "id": "bpx1_1_25_11_bolt6",
+      "hostId": "bpx1_1_25_11",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        104.36089,
+        165.43842,
+        732.83153
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        46.5,
+        -57.47,
+        0
+      ],
+      "cadFace": 482464
+    },
+    {
+      "id": "bpx1_1_25_18_bolt1",
+      "hostId": "bpx1_1_25_18",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        122.01089,
+        135.70757,
+        776.26667
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        -1.8,
+        -49.62,
+        -42.7
+      ],
+      "cadFace": 206786
+    },
+    {
+      "id": "bpx1_1_25_18_bolt2",
+      "hostId": "bpx1_1_25_18",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        122.01089,
+        196.10288,
+        715.88815
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        -1.8,
+        -49.62,
+        42.7
+      ],
+      "cadFace": 607392
+    },
+    {
+      "id": "bpx1_1_25_18_bolt3",
+      "hostId": "bpx1_1_25_18",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        81.84089,
+        135.12412,
+        776.84996
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        -1.8,
+        -9.45,
+        -43.525
+      ],
+      "cadFace": 82836
+    },
+    {
+      "id": "bpx1_1_25_18_bolt4",
+      "hostId": "bpx1_1_25_18",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "LR",
+      "page": 13,
+      "seat": [
+        81.84089,
+        196.68633,
+        715.30487
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        -1.8,
+        -9.45,
+        43.525
+      ],
+      "cadFace": 417061
+    },
+    {
+      "id": "bpx1_1_26_2_1_bolt1",
+      "hostId": "bpx1_1_26_2_1",
+      "spec": "M3×8",
+      "role": "bodyWire",
+      "leg": "RR",
+      "page": 24,
+      "seat": [
+        -116.20911,
+        130.16352,
+        851.50444
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        0.28203,
+        1.4028,
+        33.5
+      ],
+      "cadFace": 796282
+    },
+    {
+      "id": "bpx1_1_26_3_bolt1",
+      "hostId": "bpx1_1_26_3",
+      "spec": "M6×16",
+      "role": "hipRoll",
+      "leg": "RR",
+      "page": 21,
+      "seat": [
+        -116.20911,
+        184.63261,
+        780.80444
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "seatLocal": [
+        0,
+        -20,
+        -7
+      ],
+      "cadFace": 99450
+    },
+    {
+      "id": "bpx1_1_26_3_bolt2",
+      "hostId": "bpx1_1_26_3",
+      "spec": "M6×16",
+      "role": "hipRoll",
+      "leg": "RR",
+      "page": 21,
+      "seat": [
+        -116.20911,
+        144.63261,
+        780.80444
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "seatLocal": [
+        0,
+        20,
+        -7
+      ],
+      "cadFace": 155521
+    },
+    {
+      "id": "bpx1_1_26_5_2_bolt1",
+      "hostId": "bpx1_1_26_5_2",
+      "spec": "M3×8",
+      "role": "hipWire",
+      "leg": "RR",
+      "page": 21,
+      "seat": [
+        -102.00911,
+        199.1017,
+        744.80444
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "seatLocal": [
+        0.28203,
+        1.4028,
+        33.5
+      ],
+      "cadFace": 796282
+    },
+    {
+      "id": "bpx1_1_26_8_bolt1",
+      "hostId": "bpx1_1_26_8",
+      "spec": "M3×8",
+      "role": "hipKneeClamp",
+      "leg": "RR",
+      "page": 21,
+      "seat": [
+        -174.70911,
+        133.12699,
+        773.68538
+      ],
+      "axis": [
+        0,
+        -0.7070085,
+        -0.7072051
+      ],
+      "seatLocal": [
+        -42.7,
+        1.85,
+        8
+      ],
+      "cadFace": 439695
+    },
+    {
+      "id": "bpx1_1_26_9_bolt1",
+      "hostId": "bpx1_1_26_9",
+      "spec": "M3×8",
+      "role": "hipKneeClamp",
+      "leg": "RR",
+      "page": 21,
+      "seat": [
+        -174.70911,
+        196.13823,
+        715.92351
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        -42.7,
+        1.85,
+        8
+      ],
+      "locationSource": "按对侧抱箍和两个紧固孔建立装配姿态"
+    },
+    {
+      "id": "bpx1_1_26_11_bolt1",
+      "hostId": "bpx1_1_26_11",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -242.42911,
+        135.70757,
+        776.26667
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        1.8,
+        -49.62,
+        -42.7
+      ],
+      "cadFace": 333879
+    },
+    {
+      "id": "bpx1_1_26_11_bolt2",
+      "hostId": "bpx1_1_26_11",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -242.42911,
+        196.10288,
+        715.88815
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        1.8,
+        -49.62,
+        42.7
+      ],
+      "cadFace": 205459
+    },
+    {
+      "id": "bpx1_1_26_11_bolt3",
+      "hostId": "bpx1_1_26_11",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -202.25911,
+        135.12412,
+        776.84996
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        1.8,
+        -9.45,
+        -43.525
+      ],
+      "cadFace": 832815
+    },
+    {
+      "id": "bpx1_1_26_11_bolt4",
+      "hostId": "bpx1_1_26_11",
+      "spec": "M3×8",
+      "role": "thighClamp",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -202.25911,
+        196.68633,
+        715.30487
+      ],
+      "axis": [
+        0,
+        0.7070085,
+        0.7072051
+      ],
+      "seatLocal": [
+        1.8,
+        -9.45,
+        43.525
+      ],
+      "cadFace": 556387
+    },
+    {
+      "id": "bpx1_1_26_12_bolt1",
+      "hostId": "bpx1_1_26_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -226.07911,
+        163.8268,
+        756.77736
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        22.5,
+        -41.63,
+        0
+      ],
+      "cadFace": 525883
+    },
+    {
+      "id": "bpx1_1_26_12_bolt2",
+      "hostId": "bpx1_1_26_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -226.07911,
+        153.86086,
+        750.09305
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        28.5,
+        -41.63,
+        -10.3923
+      ],
+      "cadFace": 328441
+    },
+    {
+      "id": "bpx1_1_26_12_bolt3",
+      "hostId": "bpx1_1_26_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -226.07911,
+        174.59855,
+        751.48875
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        28.5,
+        -41.63,
+        10.3923
+      ],
+      "cadFace": 431860
+    },
+    {
+      "id": "bpx1_1_26_12_bolt4",
+      "hostId": "bpx1_1_26_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -224.77911,
+        154.66666,
+        738.12014
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        40.5,
+        -42.93,
+        -10.3923
+      ],
+      "cadFace": 661040
+    },
+    {
+      "id": "bpx1_1_26_12_bolt5",
+      "hostId": "bpx1_1_26_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -226.07911,
+        175.40436,
+        739.51584
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        40.5,
+        -41.63,
+        10.3923
+      ],
+      "cadFace": 557897
+    },
+    {
+      "id": "bpx1_1_26_12_bolt6",
+      "hostId": "bpx1_1_26_12",
+      "spec": "M3×8",
+      "role": "kneeMotor",
+      "leg": "RR",
+      "page": 20,
+      "seat": [
+        -224.77911,
+        165.43842,
+        732.83153
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "seatLocal": [
+        46.5,
+        -42.93,
+        0
+      ],
+      "cadFace": 573658
+    }
+  ]
+}
