@@ -30,6 +30,8 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    outputs:
+      site: ${{ steps.deployment.outputs.page_url }}
     permissions:
       pages: write
       id-token: write
@@ -39,3 +41,19 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v5
+
+  verify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Check the published assembly workbench in Chrome
+        env:
+          SITE_URL: ${{ needs.deploy.outputs.site }}
+        run: node tools/check_pages.mjs "$SITE_URL"
